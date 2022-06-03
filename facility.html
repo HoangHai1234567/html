@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quản lý thực phẩm</title>
+
+  <!--FONT-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap" rel="stylesheet">
+  <!---->
+
+  <link rel="stylesheet" href="facility.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <a href="#" class="logo">Quản lý <span>Thực phẩm</span></a>
+
+      <nav>
+        <ul>
+          <li><a href="#">Đăng ký</a></li>
+          <li><a href="#">Đăng nhập</a></li>
+        </ul>
+      </nav>
+    </header>
+    <form>
+        <label for="name">Tên cơ sở:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="area">Khu vực:</label><br>
+        <input type="text" id="area" name="area"><br>
+        <label for="address">Địa chỉ:
+          <ul>
+              <li>
+                  <label for="ward">Xã phường</label><br>
+                  <input type="text" id="ward" name="ward"><br>
+              </li>
+              <li>
+                <label for="street">Phố</label><br>
+                <input type="text" id="street" name="street"><br>
+              </li>
+              <li>
+                <label for="detail">Chi tiết</label><br>
+                <input type="text" id="detail" name="detail"><br>
+              </li>
+          </ul>
+        </label><br>
+        <label for="contact">Số điện thoại</label><br>
+        <input type="text" id="contact" name="contact"><br>
+        <label for="business">Loại hình kinh doanh</label><br>
+        <input type="text" id="business" name="business"><br>
+        <button type="submit">Đăng ký</button>
+    </form>
+
+  <div id="root"></div>
+</body>
+
+</html>
