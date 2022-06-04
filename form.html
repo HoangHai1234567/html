@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quản lý thực phẩm</title>
+
+  <!--FONT-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap" rel="stylesheet">
+  <!---->
+
+  <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <a href="#" class="logo">Quản lý <span>Thực phẩm</span></a>
+
+      <nav>
+        <ul>
+          <li><a href="#">Đăng ký</a></li>
+          <li><a href="#">Đăng nhập</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1 class="form-name">FORM KIỂM TRA</h1>
+    <form>
+        <label for="name">Tên cơ sở:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="begin">Ngày bắt đầu:</label>
+        <input type="date" id="begin" name="begin" max="2022-12-31">
+        <label for="end">Ngày kết thúc:</label>
+        <input type="date" id="end" name="end" max="2022-12-31"><br>
+        <label for="conclu">Kết luận của thanh tra</label><br>
+        <input type="text" id="conclu" name="conclu"><br>
+        <label for="vio">Quyết định xử lí vi phạm:</label>
+        <input type="checkbox" id="vio" name="vio"><br>
+        <label for="asses">Mẫu giám định:</label>
+        <table>
+            <tr>
+                <th>Mã giám định</th>
+                <th>Chuyên viên</th>
+                <th>Trạng thái</th>
+                <th>Ngày nhận kết quả</th>
+                <th>Kết quả</th>
+            </tr>
+            <tr>
+                <td>01234</td>
+                <td>uet</td>
+                <td>Đã gửi</td>
+                <td>04/06/2022</td>
+                <td>Chưa có</td>
+            </tr>
+        </table>
+        <button type="submit">Cập nhật</button>
+    </form>
+
+  <div id="root"></div>
+</body>
+
+</html>

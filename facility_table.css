@@ -123,14 +123,14 @@ table {
 th {
   border: 1px solid #101010c4;
   text-align: center;
-  padding: 8px;
+  padding: 0px;
   background-color: #04AA6D;
   color: white;
 }
 td {
   border: 1px solid #101010c4;
   text-align: center;
-  padding: 8px;
+  padding: 0px;
 }
 
 tr:nth-child(even) {
