@@ -114,9 +114,13 @@
   .middle .log-in p a {
     color: #04AA6D;
   }
-  div h1{
-    margin-left: 21em;
-    margin-top: 10em;
-    font-size: xx-large;
-    color: #04AA6D;
+  .content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  img{
+    width:100px;
+    height: 650px;
   }
